@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #60b3da59, #8dd6d6ea, #60b3da59)
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.calculator-flex {
+    border-radius: 3%;
+    border: dotted dodgerblue;
+    background: #60b3da59;
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    background: #60b3da59;
+    padding: 20px;
+}
+
+.row-flex {
+    min-width: 50vh;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+} 
+
+.calculator-flex,
+.row-flex {
+    gap: 2px;
+}
+
+button {
+    flex: 1;
+    background: #74da603b;
+    border-radius: 5%;
+    font-size: 40px;
+    font-weight: 300;
+    font-family:'Orbitron', sans-serif}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.flex-two {
+    flex: 2.18;
+    
+}
+
+.colour {
+    background: rgb(255, 127, 41);
+}
+
+.display {
+    flex: 1.1;
+    border: solid lightblue;
+    border-radius: 2%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: rgba(98, 194, 127, 0.507);
+    padding: 3px;
+    font-family: "Orbitron";
+}
+
+.display:hover{
+    opacity: 0.7;
+}
+
+#previous-operand {
+    font-size: 20px;
+    font-family: "Orbitron";
+}
+
+#current-operand {
+    font-size: 30px;
+    font-family: "Orbitron";
+}
