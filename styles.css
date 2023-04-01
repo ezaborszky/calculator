@@ -74,6 +74,8 @@ button:hover {
     background: rgba(98, 194, 127, 0.507);
     padding: 3px;
     font-family: "Orbitron";
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 900;
 }
 
 .display:hover{
@@ -88,4 +90,8 @@ button:hover {
 #current-operand {
     font-size: 30px;
     font-family: "Orbitron";
+}
+
+.selected {
+    background: crimson;
 }
